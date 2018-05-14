@@ -1,0 +1,35 @@
+
+		body {
+    background-image: url("http://static.simpledesktops.com/uploads/desktops/2014/11/20/Vortex.png");
+    background-size:cover;
+  
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    background-color: #555;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+
+ .active {
+    background-color:#DC556A;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: white;
+    color: black;
+}
